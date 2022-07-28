@@ -1,0 +1,77 @@
+body{
+    width: 100%;
+    background-color: bisque;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+.box{
+    height: 530px;
+    width: 850px;
+    background-color: black;
+    margin: auto;
+    margin-top: 200px;
+    margin-left: 490px;
+    padding: 40px;
+}
+.log{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 25px;
+    font-weight:500;
+    margin-bottom: 100px;
+    
+}
+.text, .password{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px  auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 400px;
+    outline: none;
+    color: aliceblue;
+    font-size: 14px;
+}
+.submit{
+    
+    background: none;
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+    border: 2px solid white;
+    padding: 14px 10px;
+    width: 150px;
+    outline: none;
+    color: white;
+    margin-top: 100px;
+    margin-left: 355px;
+    border-radius: 32px;
+    cursor: pointer;
+
+}
+.submit:hover{
+    background: white;
+    color: black;
+    transition: 0.15s;
+}
+.don{
+    color: aliceblue;
+    margin-top: 15px;
+    text-align: right;
+    font-size: 14px;
+}
+.sign{
+    color: aliceblue;
+    background: none;
+    position: absolute;
+    border: 2px solid rgb(7, 210, 233);
+    margin-left: 700px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+    

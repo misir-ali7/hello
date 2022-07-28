@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+    color: aliceblue;
+    
+}
+body{
+    display: flex;
+    height: 100vh;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    background-color: black;
+    padding: 25px 30px;
+    border-radius: 5px;
+
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+}
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+}
+form .user-details .input-box{
+    margin: 20px 10px 12px 10px;
+    width: calc(100% / 2 - 20px);
+}
+.user-details .input-box .details{
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+.user-details .input-box input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border-radius: 0px;
+    border: 2px solid #3498db;
+    padding-left: 15px;
+    font-size: 15px;
+    background: none;
+
+}
+form .button{
+    height: 45px;
+    margin: 45px 0;
+}
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: white;
+    background: none;
+    border: 2px solid #3EC70B;
+    border-radius: 22px;
+}
